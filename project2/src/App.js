@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link, Routes, Outlet } from 'react-rout
 import Login from './Login';
 import CA from './CA'
 import MusicPage from './MusicPage'
+import FavoritesPage from './FavoritesPage';
 import './App.css'
 import Home from './home';
 
@@ -30,6 +31,7 @@ function App() {
             <Route path="/Login" element={<Login />} />
             <Route path="/CA" element={<CA />} />
             <Route path="/music" element={<MusicPage />} />
+            <Route path="/favorites" element={<FavoritesPage />} />
             </Routes>
     </Router>
     </div>
